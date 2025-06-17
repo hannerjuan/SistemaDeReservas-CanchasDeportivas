@@ -102,6 +102,7 @@ SistemaDeReservas-CanchasDeportivas/
    ```bash
    cd BackEnd
    dotnet restore
+   dotnet tool install --global dotnet-ef
    dotnet ef database update
    ```
 
